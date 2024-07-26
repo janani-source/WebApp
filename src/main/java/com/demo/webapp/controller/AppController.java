@@ -10,5 +10,10 @@ public class AppController {
 	public String home() {
 		return "index";
 	}
+	 
+	@RequestMapping("/home")
+	public String homePage() {
+         return "page";
+	}
 
 }
